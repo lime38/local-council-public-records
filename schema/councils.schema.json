@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://jalhana.com/resources/local-councils/schema/councils.schema.json",
-  "title": "20개 지방의회 공식 기록·의원 안내 v0.2.1",
+  "title": "20개 지방의회 공식 기록·의원 안내 v0.2.2",
   "type": "array",
   "minItems": 20,
   "maxItems": 20,
@@ -46,7 +46,7 @@
         "type": "string",
         "maxLength": 2000,
         "minLength": 1,
-        "const": "0.2.1"
+        "const": "0.2.2"
       },
       "scope_as_of": {
         "type": "string",
@@ -107,7 +107,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "homepage_source_url": {
         "type": [
@@ -116,7 +116,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "homepage_checked_at": {
         "type": [
@@ -157,7 +157,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "minutes_source_url": {
         "type": [
@@ -166,7 +166,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "minutes_checked_at": {
         "type": [
@@ -207,7 +207,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "bills_source_url": {
         "type": [
@@ -216,7 +216,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "bills_checked_at": {
         "type": [
@@ -257,7 +257,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "members_source_url": {
         "type": [
@@ -266,7 +266,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|record\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "members_checked_at": {
         "type": [

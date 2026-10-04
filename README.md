@@ -2,7 +2,7 @@
 
 제작: [잘하나(JALHANA)](https://jalhana.com/) · **[대표 안내·웹 목록](https://jalhana.com/resources/local-councils/)**
 
-**v0.2.1 · 자료 기준일 2026-10-04 · 20개 의회 베타**
+**v0.2.2 · 자료 기준일 2026-10-04 · 20개 의회 베타**
 
 지방의회의 공식 홈페이지와 회의록·의안·의원 안내 진입 경로를 찾고 재사용할 수 있도록 정리한 자료입니다.
 전국 전수 자료가 아니며, 확인 범위는 URL별 출처·시각·방법·기간 제한과 함께 제공합니다.
@@ -29,7 +29,7 @@ for council in councils:
 
 ## 권장 인용
 
-> 잘하나(JALHANA), 「20개 지방의회 공식 기록·의원 안내」, v0.2.1, 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
+> 잘하나(JALHANA), 「20개 지방의회 공식 기록·의원 안내」, v0.2.2, 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
 
 기계 판독용 인용 정보: [CITATION.cff](CITATION.cff).
 개별 기관의 공식 기록을 이용한 글에는 해당 기록의 원출처도 함께 표시해 주세요.

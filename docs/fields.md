@@ -8,7 +8,7 @@ CSV는 UTF-8, 쉼표 구분, CRLF 행 종결입니다. 쉼표·따옴표는 표�
 
 | 필드 | 의미 |
 |---|---|
-| `release_version` | 공개 릴리스 버전 0.2.1 |
+| `release_version` | 공개 릴리스 버전 0.2.2 |
 | `scope_as_of` | 이 릴리스의 자료 기준일(YYYY-MM-DD); 개별 접속 확인일과 다름 |
 | `council_id` | 이 리소스의 안정적인 문자열 ID; 공식 행정코드가 아님 |
 | `region` | 대상 지역 |
