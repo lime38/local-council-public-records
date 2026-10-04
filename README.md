@@ -2,11 +2,11 @@
 
 제작: [잘하나(JALHANA)](https://jalhana.com/) · **[대표 안내·웹 목록](https://jalhana.com/resources/local-councils/)**
 
-**v0.2.4 · 자료 기준일 2026-10-04 · 24개 지역 베타**
+**v0.2.5 · 자료 기준일 2026-10-04 · 24개 지역 베타**
 
 지방의회의 공식 홈페이지와 회의록·의안·의원 안내 진입 경로를 찾고 재사용할 수 있도록 정리한 자료입니다.
 24개 지역의 96개 링크와 URL별 출처·확인 기록을 제공합니다.
-JSON의 `null`은 CSV의 빈 칸과 같습니다.
+JSON의 `null`은 CSV의 빈 칸과 같습니다. CSV는 엑셀에서 한글을 바로 읽도록 UTF-8 BOM을 포함합니다. Python에서는 `encoding="utf-8-sig"`로 읽습니다.
 
 ## 바로 사용하기
 
@@ -29,7 +29,7 @@ for council in councils:
 
 ## 권장 인용
 
-> 잘하나(JALHANA), 「24개 지역 지방의회 공식 기록·의원 안내」, v0.2.4, 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
+> 잘하나(JALHANA), 「24개 지역 지방의회 공식 기록·의원 안내」, v0.2.5, 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
 
 기계 판독용 인용 정보: [CITATION.cff](CITATION.cff).
 개별 기관의 공식 기록을 이용한 글에는 해당 기록의 원출처도 함께 표시해 주세요.

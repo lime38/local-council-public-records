@@ -1,6 +1,6 @@
 [
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "gangnam",
     "region": "서울특별시 강남구",
@@ -33,7 +33,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "gangwon",
     "region": "강원특별자치도",
@@ -66,7 +66,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "geoje",
     "region": "경상남도 거제시",
@@ -99,7 +99,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeonggi",
     "region": "경기도",
@@ -132,7 +132,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeongnam",
     "region": "경상남도",
@@ -165,7 +165,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeongbuk",
     "region": "경상북도",
@@ -198,7 +198,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "goyang",
     "region": "경기도 고양시",
@@ -231,7 +231,7 @@
     "notes": "공식 사이트의 표시 명칭은 고양특례시의회입니다."
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "gwangju",
     "region": "광주광역시",
@@ -264,7 +264,7 @@
     "notes": "잘하나의 기존 공개 지역 구분입니다. 홈페이지는 통합 전 자료로, 최근 회의록·의안·현역 의원은 전남광주통합특별시의회로 연결합니다."
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "daegu",
     "region": "대구광역시",
@@ -297,7 +297,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "daejeon",
     "region": "대전광역시",
@@ -330,7 +330,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "busan",
     "region": "부산광역시",
@@ -363,7 +363,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "seoul",
     "region": "서울특별시",
@@ -396,7 +396,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "seongnam",
     "region": "경기도 성남시",
@@ -429,7 +429,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "sejong",
     "region": "세종특별자치시",
@@ -462,7 +462,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "songpa",
     "region": "서울특별시 송파구",
@@ -495,7 +495,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "suwon",
     "region": "경기도 수원시",
@@ -528,7 +528,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "yongin",
     "region": "경기도 용인시",
@@ -561,7 +561,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "ulsan",
     "region": "울산광역시",
@@ -594,7 +594,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "incheon",
     "region": "인천광역시",
@@ -627,7 +627,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "jeonnam",
     "region": "전라남도",
@@ -660,7 +660,7 @@
     "notes": "잘하나의 기존 공개 지역 구분입니다. 홈페이지는 통합 전 자료로, 최근 회의록·의안·현역 의원은 전남광주통합특별시의회로 연결합니다."
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "jeonbuk",
     "region": "전북특별자치도",
@@ -693,7 +693,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "jeju",
     "region": "제주특별자치도",
@@ -726,7 +726,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "chungnam",
     "region": "충청남도",
@@ -759,7 +759,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.4",
+    "release_version": "0.2.5",
     "scope_as_of": "2026-10-04",
     "council_id": "chungbuk",
     "region": "충청북도",
