@@ -1,10 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://jalhana.com/resources/local-councils/schema/councils.schema.json",
-  "title": "20개 지방의회 공식 기록·의원 안내 v0.2.3",
+  "title": "24개 지역 지방의회 공식 기록·의원 안내 v0.2.4",
   "type": "array",
-  "minItems": 20,
-  "maxItems": 20,
+  "minItems": 24,
+  "maxItems": 24,
   "items": {
     "type": "object",
     "additionalProperties": false,
@@ -46,7 +46,7 @@
         "type": "string",
         "maxLength": 2000,
         "minLength": 1,
-        "const": "0.2.3"
+        "const": "0.2.4"
       },
       "scope_as_of": {
         "type": "string",
@@ -66,6 +66,7 @@
           "gyeongnam",
           "gyeongbuk",
           "goyang",
+          "gwangju",
           "daegu",
           "daejeon",
           "busan",
@@ -73,8 +74,11 @@
           "seongnam",
           "sejong",
           "songpa",
+          "suwon",
+          "yongin",
           "ulsan",
           "incheon",
+          "jeonnam",
           "jeonbuk",
           "jeju",
           "chungnam",

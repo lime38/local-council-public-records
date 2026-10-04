@@ -1,6 +1,6 @@
 [
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "gangnam",
     "region": "서울특별시 강남구",
@@ -33,7 +33,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "gangwon",
     "region": "강원특별자치도",
@@ -66,7 +66,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "geoje",
     "region": "경상남도 거제시",
@@ -99,7 +99,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeonggi",
     "region": "경기도",
@@ -132,7 +132,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeongnam",
     "region": "경상남도",
@@ -165,7 +165,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeongbuk",
     "region": "경상북도",
@@ -198,7 +198,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "goyang",
     "region": "경기도 고양시",
@@ -231,7 +231,40 @@
     "notes": "공식 사이트의 표시 명칭은 고양특례시의회입니다."
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
+    "scope_as_of": "2026-10-04",
+    "council_id": "gwangju",
+    "region": "광주광역시",
+    "council_name": "광주광역시의회",
+    "council_level": "광역",
+    "homepage_url": "https://council.gwangju.go.kr/index.do",
+    "homepage_source_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/main",
+    "homepage_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "homepage_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "homepage_status": "navigation_observed",
+    "homepage_scope": "통합 전 의회 자료",
+    "minutes_url": "https://assem.jeonnam-gwangju.go.kr/assem/recent.do",
+    "minutes_source_url": "https://assem.jeonnam-gwangju.go.kr/main.do",
+    "minutes_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "minutes_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "minutes_status": "navigation_observed",
+    "minutes_scope": "통합의회 최근 회의록",
+    "bills_url": "https://assem.jeonnam-gwangju.go.kr/bills/search/recent.do",
+    "bills_source_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/main",
+    "bills_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "bills_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "bills_status": "navigation_observed",
+    "bills_scope": "통합의회 최근 의안",
+    "members_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/contents/lawmakerList",
+    "members_source_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/main",
+    "members_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "members_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "members_status": "navigation_observed",
+    "members_scope": "통합의회 현역 의원 명단",
+    "notes": "잘하나의 기존 공개 지역 구분입니다. 홈페이지는 통합 전 자료로, 최근 회의록·의안·현역 의원은 전남광주통합특별시의회로 연결합니다."
+  },
+  {
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "daegu",
     "region": "대구광역시",
@@ -264,7 +297,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "daejeon",
     "region": "대전광역시",
@@ -297,7 +330,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "busan",
     "region": "부산광역시",
@@ -330,7 +363,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "seoul",
     "region": "서울특별시",
@@ -363,7 +396,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "seongnam",
     "region": "경기도 성남시",
@@ -396,7 +429,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "sejong",
     "region": "세종특별자치시",
@@ -429,7 +462,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "songpa",
     "region": "서울특별시 송파구",
@@ -462,7 +495,73 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
+    "scope_as_of": "2026-10-04",
+    "council_id": "suwon",
+    "region": "경기도 수원시",
+    "council_name": "수원특례시의회",
+    "council_level": "기초",
+    "homepage_url": "https://council.suwon.go.kr/",
+    "homepage_source_url": "https://council.suwon.go.kr/kr/member/district.do?district=sa",
+    "homepage_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "homepage_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "homepage_status": "navigation_observed",
+    "homepage_scope": "의회 공식 홈페이지",
+    "minutes_url": "https://council.suwon.go.kr/minutes/ems/late.do",
+    "minutes_source_url": "https://council.suwon.go.kr/kr/member/district.do?district=sa",
+    "minutes_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "minutes_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "minutes_status": "navigation_observed",
+    "minutes_scope": "최근 회의록",
+    "bills_url": "https://council.suwon.go.kr/minutes/bill.do",
+    "bills_source_url": "https://council.suwon.go.kr/kr/member/district.do?district=sa",
+    "bills_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "bills_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "bills_status": "navigation_observed",
+    "bills_scope": "의안 검색",
+    "members_url": "https://council.suwon.go.kr/kr/member/name.do",
+    "members_source_url": "https://council.suwon.go.kr/kr/member/district.do?district=sa",
+    "members_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "members_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "members_status": "navigation_observed",
+    "members_scope": "현역 의원 인명별 안내",
+    "notes": null
+  },
+  {
+    "release_version": "0.2.4",
+    "scope_as_of": "2026-10-04",
+    "council_id": "yongin",
+    "region": "경기도 용인시",
+    "council_name": "용인특례시의회",
+    "council_level": "기초",
+    "homepage_url": "https://council.yongin.go.kr/",
+    "homepage_source_url": "https://council.yongin.go.kr/",
+    "homepage_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "homepage_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "homepage_status": "navigation_observed",
+    "homepage_scope": "의회 공식 홈페이지",
+    "minutes_url": "https://council.yongin.go.kr/kr/minutes/late.do",
+    "minutes_source_url": "https://council.yongin.go.kr/",
+    "minutes_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "minutes_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "minutes_status": "navigation_observed",
+    "minutes_scope": "최근 회의록",
+    "bills_url": "https://council.yongin.go.kr/kr/bill.do",
+    "bills_source_url": "https://council.yongin.go.kr/",
+    "bills_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "bills_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "bills_status": "navigation_observed",
+    "bills_scope": "의안 검색",
+    "members_url": "https://council.yongin.go.kr/kr/member/name.do",
+    "members_source_url": "https://council.yongin.go.kr/",
+    "members_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "members_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "members_status": "navigation_observed",
+    "members_scope": "의원 이름별 안내",
+    "notes": null
+  },
+  {
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "ulsan",
     "region": "울산광역시",
@@ -495,7 +594,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "incheon",
     "region": "인천광역시",
@@ -528,7 +627,40 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
+    "scope_as_of": "2026-10-04",
+    "council_id": "jeonnam",
+    "region": "전라남도",
+    "council_name": "전라남도의회",
+    "council_level": "광역",
+    "homepage_url": "https://www.jnassembly.go.kr/jnassem/main",
+    "homepage_source_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/main",
+    "homepage_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "homepage_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "homepage_status": "navigation_observed",
+    "homepage_scope": "통합 전 의회 자료",
+    "minutes_url": "https://assem.jeonnam-gwangju.go.kr/assem/recent.do",
+    "minutes_source_url": "https://assem.jeonnam-gwangju.go.kr/main.do",
+    "minutes_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "minutes_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "minutes_status": "navigation_observed",
+    "minutes_scope": "통합의회 최근 회의록",
+    "bills_url": "https://assem.jeonnam-gwangju.go.kr/bills/search/recent.do",
+    "bills_source_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/main",
+    "bills_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "bills_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "bills_status": "navigation_observed",
+    "bills_scope": "통합의회 최근 의안",
+    "members_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/contents/lawmakerList",
+    "members_source_url": "https://council.jeonnam-gwangju.go.kr/jngjassem/main",
+    "members_checked_at": "2026-10-04T08:32:49.396864+00:00",
+    "members_method": "공식 페이지 메뉴의 항목명과 연결 주소 관찰(캐시 열람 포함)",
+    "members_status": "navigation_observed",
+    "members_scope": "통합의회 현역 의원 명단",
+    "notes": "잘하나의 기존 공개 지역 구분입니다. 홈페이지는 통합 전 자료로, 최근 회의록·의안·현역 의원은 전남광주통합특별시의회로 연결합니다."
+  },
+  {
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "jeonbuk",
     "region": "전북특별자치도",
@@ -561,7 +693,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "jeju",
     "region": "제주특별자치도",
@@ -594,7 +726,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "chungnam",
     "region": "충청남도",
@@ -627,7 +759,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.3",
+    "release_version": "0.2.4",
     "scope_as_of": "2026-10-04",
     "council_id": "chungbuk",
     "region": "충청북도",
