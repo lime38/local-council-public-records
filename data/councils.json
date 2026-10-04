@@ -1,6 +1,6 @@
 [
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "gangnam",
     "region": "서울특별시 강남구",
@@ -33,7 +33,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "gangwon",
     "region": "강원특별자치도",
@@ -66,7 +66,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "geoje",
     "region": "경상남도 거제시",
@@ -99,7 +99,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeonggi",
     "region": "경기도",
@@ -132,7 +132,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeongnam",
     "region": "경상남도",
@@ -165,7 +165,7 @@
     "notes": "회의록·의안 메뉴 표시는 확인했으나 개별 진입 URL은 확정하지 못했습니다."
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "gyeongbuk",
     "region": "경상북도",
@@ -198,7 +198,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "goyang",
     "region": "경기도 고양시",
@@ -231,7 +231,7 @@
     "notes": "공식 사이트의 표시 명칭은 고양특례시의회입니다."
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "daegu",
     "region": "대구광역시",
@@ -264,7 +264,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "daejeon",
     "region": "대전광역시",
@@ -297,7 +297,7 @@
     "notes": "관련기관 목록에서 홈페이지 주소를 확인했습니다. 회의록·의안·의원 안내의 개별 진입 경로는 미확인입니다."
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "busan",
     "region": "부산광역시",
@@ -330,7 +330,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "seoul",
     "region": "서울특별시",
@@ -363,7 +363,7 @@
     "notes": "의안 개별 진입 경로는 이번 확인에서 확정하지 못했습니다. 의원 안내의 명부·연락처는 재배포하지 않습니다."
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "seongnam",
     "region": "경기도 성남시",
@@ -396,7 +396,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "sejong",
     "region": "세종특별자치시",
@@ -429,7 +429,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "songpa",
     "region": "서울특별시 송파구",
@@ -462,7 +462,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "ulsan",
     "region": "울산광역시",
@@ -495,7 +495,7 @@
     "notes": "관련기관 목록에서 홈페이지 주소를 확인했습니다. 회의록·의안·의원 안내의 개별 진입 경로는 미확인입니다."
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "incheon",
     "region": "인천광역시",
@@ -528,7 +528,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "jeonbuk",
     "region": "전북특별자치도",
@@ -561,7 +561,7 @@
     "notes": null
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "jeju",
     "region": "제주특별자치도",
@@ -594,7 +594,7 @@
     "notes": "관련기관 목록에서 홈페이지 주소를 확인했습니다. 회의록·의안·의원 안내의 개별 진입 경로는 미확인입니다."
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "chungnam",
     "region": "충청남도",
@@ -627,7 +627,7 @@
     "notes": "관련기관 목록에서 홈페이지 주소를 확인했습니다. 회의록·의안·의원 안내의 개별 진입 경로는 미확인입니다."
   },
   {
-    "release_version": "0.2.0",
+    "release_version": "0.2.1",
     "scope_as_of": "2026-10-04",
     "council_id": "chungbuk",
     "region": "충청북도",
@@ -639,24 +639,24 @@
     "homepage_method": "다른 공식 의회 사이트의 관련 기관 목록에서 기관명·연결 URL 관찰",
     "homepage_status": "navigation_observed",
     "homepage_scope": "공식 관련기관 목록의 홈페이지 주소; 목적지 접속·세부 메뉴는 미확인",
-    "minutes_url": null,
-    "minutes_source_url": null,
-    "minutes_checked_at": null,
-    "minutes_method": null,
-    "minutes_status": "unknown",
-    "minutes_scope": "개별 진입 경로 미확인; 자료·기능이 없다는 뜻은 아님",
-    "bills_url": null,
-    "bills_source_url": null,
+    "minutes_url": "https://council.chungbuk.kr/assembly/main.do",
+    "minutes_source_url": "https://council.chungbuk.kr/assembly/main.do",
+    "minutes_checked_at": "2026-10-04T06:46:21.390298+00:00",
+    "minutes_method": "사용자 제공 URL과 공식 회의록 페이지의 캐시된 제목·메뉴 대조",
+    "minutes_status": "navigation_observed",
+    "minutes_scope": "공식 회의록 화면·전자회의록 메뉴 확인; 캐시 관찰이며 최신 응답·검색 기능은 미검증",
+    "bills_url": "https://council.chungbuk.kr/kr/bill.do",
+    "bills_source_url": "https://council.chungbuk.kr/kr/bill.do",
     "bills_checked_at": null,
-    "bills_method": null,
+    "bills_method": "사용자 제공 공식 도메인 URL; 자동 조회 제한과 검색 도구 응답 시간 초과로 화면 확인 대기",
     "bills_status": "unknown",
-    "bills_scope": "개별 진입 경로 미확인; 자료·기능이 없다는 뜻은 아님",
-    "members_url": null,
-    "members_source_url": null,
+    "bills_scope": "사용자 제공 링크 · 자동 조회 제한으로 화면 확인 대기",
+    "members_url": "https://council.chungbuk.kr/kr/member/name.do",
+    "members_source_url": "https://council.chungbuk.kr/kr/member/name.do",
     "members_checked_at": null,
-    "members_method": null,
+    "members_method": "사용자 제공 공식 도메인 URL; 자동 조회 제한과 검색 도구 응답 시간 초과로 화면 확인 대기",
     "members_status": "unknown",
-    "members_scope": "개별 진입 경로 미확인; 자료·기능이 없다는 뜻은 아님",
-    "notes": "관련기관 목록에서 홈페이지 주소를 확인했습니다. 회의록·의안·의원 안내의 개별 진입 경로는 미확인입니다."
+    "members_scope": "사용자 제공 링크 · 자동 조회 제한으로 화면 확인 대기",
+    "notes": "회의록·의안·의원 안내 주소를 사용자 제보로 보완했습니다. 회의록은 공식 페이지의 캐시된 화면을 대조했고, 의안·의원 안내는 링크를 제공하되 화면 확인은 대기 중입니다. 자동 수집 제한은 링크가 없다는 뜻이 아닙니다."
   }
 ]

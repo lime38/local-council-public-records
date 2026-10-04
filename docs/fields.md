@@ -8,32 +8,32 @@ CSV는 UTF-8, 쉼표 구분, CRLF 행 종결입니다. 쉼표·따옴표는 표�
 
 | 필드 | 의미 |
 |---|---|
-| `release_version` | 공개 릴리스 버전 0.2.0 |
+| `release_version` | 공개 릴리스 버전 0.2.1 |
 | `scope_as_of` | 이 릴리스의 자료 기준일(YYYY-MM-DD); 개별 접속 확인일과 다름 |
 | `council_id` | 이 리소스의 안정적인 문자열 ID; 공식 행정코드가 아님 |
 | `region` | 대상 지역 |
 | `council_name` | 기관 명칭 |
 | `council_level` | 기관 구분: 광역 또는 기초; 의원별 정보가 아님 |
-| `homepage_url` | 공식 홈페이지: 공식 접근 URL; 미확인은 null |
-| `homepage_source_url` | 공식 홈페이지: 기관·메뉴·용도를 확인한 공식 출처 URL |
+| `homepage_url` | 공식 홈페이지: 공식 접근 URL 또는 명시적으로 제공받은 공식 도메인 URL; 알 수 없으면 null. 화면 확인 여부는 status로 구분 |
+| `homepage_source_url` | 공식 홈페이지: 관찰한 공식 출처 URL; 사용자 제공·확인 대기인 경우 제시된 공식 URL |
 | `homepage_checked_at` | 공식 홈페이지: 관찰·확인 시각(시간대 포함 ISO 8601); 미확인은 null |
 | `homepage_method` | 공식 홈페이지: 실제로 수행한 확인 방법 |
 | `homepage_status` | 공식 홈페이지: navigation_observed / http_response_checked / unknown |
 | `homepage_scope` | 공식 홈페이지: 확인한 용도·기간과 확인하지 않은 범위 |
-| `minutes_url` | 회의록: 공식 접근 URL; 미확인은 null |
-| `minutes_source_url` | 회의록: 기관·메뉴·용도를 확인한 공식 출처 URL |
+| `minutes_url` | 회의록: 공식 접근 URL 또는 명시적으로 제공받은 공식 도메인 URL; 알 수 없으면 null. 화면 확인 여부는 status로 구분 |
+| `minutes_source_url` | 회의록: 관찰한 공식 출처 URL; 사용자 제공·확인 대기인 경우 제시된 공식 URL |
 | `minutes_checked_at` | 회의록: 관찰·확인 시각(시간대 포함 ISO 8601); 미확인은 null |
 | `minutes_method` | 회의록: 실제로 수행한 확인 방법 |
 | `minutes_status` | 회의록: navigation_observed / http_response_checked / unknown |
 | `minutes_scope` | 회의록: 확인한 용도·기간과 확인하지 않은 범위 |
-| `bills_url` | 의안: 공식 접근 URL; 미확인은 null |
-| `bills_source_url` | 의안: 기관·메뉴·용도를 확인한 공식 출처 URL |
+| `bills_url` | 의안: 공식 접근 URL 또는 명시적으로 제공받은 공식 도메인 URL; 알 수 없으면 null. 화면 확인 여부는 status로 구분 |
+| `bills_source_url` | 의안: 관찰한 공식 출처 URL; 사용자 제공·확인 대기인 경우 제시된 공식 URL |
 | `bills_checked_at` | 의안: 관찰·확인 시각(시간대 포함 ISO 8601); 미확인은 null |
 | `bills_method` | 의안: 실제로 수행한 확인 방법 |
 | `bills_status` | 의안: navigation_observed / http_response_checked / unknown |
 | `bills_scope` | 의안: 확인한 용도·기간과 확인하지 않은 범위 |
-| `members_url` | 의원 안내: 공식 접근 URL; 미확인은 null |
-| `members_source_url` | 의원 안내: 기관·메뉴·용도를 확인한 공식 출처 URL |
+| `members_url` | 의원 안내: 공식 접근 URL 또는 명시적으로 제공받은 공식 도메인 URL; 알 수 없으면 null. 화면 확인 여부는 status로 구분 |
+| `members_source_url` | 의원 안내: 관찰한 공식 출처 URL; 사용자 제공·확인 대기인 경우 제시된 공식 URL |
 | `members_checked_at` | 의원 안내: 관찰·확인 시각(시간대 포함 ISO 8601); 미확인은 null |
 | `members_method` | 의원 안내: 실제로 수행한 확인 방법 |
 | `members_status` | 의원 안내: navigation_observed / http_response_checked / unknown |
@@ -42,5 +42,5 @@ CSV는 UTF-8, 쉼표 구분, CRLF 행 종결입니다. 쉼표·따옴표는 표�
 
 `navigation_observed`: 공식 메뉴·페이지 내용을 관찰했습니다. 도구의 캐시 응답일 수 있습니다.
 `http_response_checked`: 기록된 시각에 직접 HTTP 응답을 확인했습니다. 기능 전체의 작동 검증은 아닙니다.
-`unknown`: 확인 상태를 확정하지 못했습니다. 해당 기능이나 자료가 없다는 뜻이 아닙니다.
+`unknown`: 확인 상태를 확정하지 못했습니다. 제공받은 URL이 있을 수 있으며, 이때 checked_at은 null이고 method/scope에 제공 경위를 표시합니다. 해당 기능이나 자료가 없다는 뜻이 아닙니다.
 모든 상태에서 `scope`와 `method`를 함께 읽어야 합니다.

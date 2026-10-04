@@ -5,7 +5,7 @@ title: "20개 지방의회 공식 기록·의원 안내"
 authors:
   - name: "잘하나(JALHANA)"
     website: "https://jalhana.com/"
-version: "0.2.0"
+version: "0.2.1"
 date-released: "2026-10-04"
 url: "https://jalhana.com/resources/local-councils/"
 repository-code: "https://github.com/lime38/local-council-public-records"
