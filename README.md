@@ -2,11 +2,11 @@
 
 제작: [잘하나(JALHANA)](https://jalhana.com/) · **[대표 안내·웹 목록](https://jalhana.com/resources/local-councils/)**
 
-**v0.2.2 · 자료 기준일 2026-10-04 · 20개 의회 베타**
+**v0.2.3 · 자료 기준일 2026-10-04 · 20개 의회 베타**
 
 지방의회의 공식 홈페이지와 회의록·의안·의원 안내 진입 경로를 찾고 재사용할 수 있도록 정리한 자료입니다.
-전국 전수 자료가 아니며, 확인 범위는 URL별 출처·시각·방법·기간 제한과 함께 제공합니다.
-알 수 없는 값은 JSON의 `null`, CSV의 빈 칸입니다. 제공받은 링크가 있어도 화면 확인 전에는 상태를 `unknown`, 확인일을 `null`로 둡니다. 자료 부재·기능 없음·숫자 0을 뜻하지 않습니다.
+20개 의회의 80개 링크와 URL별 출처·확인 기록을 제공합니다.
+JSON의 `null`은 CSV의 빈 칸과 같습니다.
 
 ## 바로 사용하기
 
@@ -23,13 +23,13 @@ for council in councils:
     print(council["council_name"], council["minutes_url"])
 ```
 
-공식 메뉴·페이지의 관찰과 직접 HTTP 응답 확인은 각각 `navigation_observed`,
-`http_response_checked`로 표시합니다. 검색·첨부·전체 기간 제공을 검증했다는 뜻은 아닙니다.
-출처 링크와 경로별 `scope`를 확인한 뒤 사용해 주세요.
+공식 메뉴 관찰, 직접 HTTP 응답 확인, 이용자의 직접 접속 확인을 각각
+`navigation_observed`, `http_response_checked`, `user_confirmed`로 기록합니다.
+`scope`는 최근회의록·의안검색 등 링크의 용도를 설명합니다.
 
 ## 권장 인용
 
-> 잘하나(JALHANA), 「20개 지방의회 공식 기록·의원 안내」, v0.2.2, 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
+> 잘하나(JALHANA), 「20개 지방의회 공식 기록·의원 안내」, v0.2.3, 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
 
 기계 판독용 인용 정보: [CITATION.cff](CITATION.cff).
 개별 기관의 공식 기록을 이용한 글에는 해당 기록의 원출처도 함께 표시해 주세요.

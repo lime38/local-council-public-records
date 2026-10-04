@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://jalhana.com/resources/local-councils/schema/councils.schema.json",
-  "title": "20개 지방의회 공식 기록·의원 안내 v0.2.2",
+  "title": "20개 지방의회 공식 기록·의원 안내 v0.2.3",
   "type": "array",
   "minItems": 20,
   "maxItems": 20,
@@ -46,7 +46,7 @@
         "type": "string",
         "maxLength": 2000,
         "minLength": 1,
-        "const": "0.2.2"
+        "const": "0.2.3"
       },
       "scope_as_of": {
         "type": "string",
@@ -140,6 +140,7 @@
         "enum": [
           "navigation_observed",
           "http_response_checked",
+          "user_confirmed",
           "unknown"
         ]
       },
@@ -190,6 +191,7 @@
         "enum": [
           "navigation_observed",
           "http_response_checked",
+          "user_confirmed",
           "unknown"
         ]
       },
@@ -240,6 +242,7 @@
         "enum": [
           "navigation_observed",
           "http_response_checked",
+          "user_confirmed",
           "unknown"
         ]
       },
@@ -290,6 +293,7 @@
         "enum": [
           "navigation_observed",
           "http_response_checked",
+          "user_confirmed",
           "unknown"
         ]
       },
