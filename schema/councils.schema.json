@@ -1,10 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://jalhana.com/resources/local-councils/schema/councils.schema.json",
-  "title": "5개 지역 지방의회 공식 기록 접근 안내 v0.1.0",
+  "title": "20개 지방의회 공식 기록·의원 안내 v0.2.0",
   "type": "array",
-  "minItems": 5,
-  "maxItems": 5,
+  "minItems": 20,
+  "maxItems": 20,
   "items": {
     "type": "object",
     "additionalProperties": false,
@@ -14,6 +14,7 @@
       "council_id",
       "region",
       "council_name",
+      "council_level",
       "homepage_url",
       "homepage_source_url",
       "homepage_checked_at",
@@ -32,6 +33,12 @@
       "bills_method",
       "bills_status",
       "bills_scope",
+      "members_url",
+      "members_source_url",
+      "members_checked_at",
+      "members_method",
+      "members_status",
+      "members_scope",
       "notes"
     ],
     "properties": {
@@ -39,7 +46,7 @@
         "type": "string",
         "maxLength": 2000,
         "minLength": 1,
-        "const": "0.1.0"
+        "const": "0.2.0"
       },
       "scope_as_of": {
         "type": "string",
@@ -52,11 +59,26 @@
         "maxLength": 2000,
         "minLength": 1,
         "enum": [
-          "geoje",
-          "seongnam",
-          "goyang",
           "gangnam",
-          "songpa"
+          "gangwon",
+          "geoje",
+          "gyeonggi",
+          "gyeongnam",
+          "gyeongbuk",
+          "goyang",
+          "daegu",
+          "daejeon",
+          "busan",
+          "seoul",
+          "seongnam",
+          "sejong",
+          "songpa",
+          "ulsan",
+          "incheon",
+          "jeonbuk",
+          "jeju",
+          "chungnam",
+          "chungbuk"
         ]
       },
       "region": {
@@ -69,6 +91,15 @@
         "maxLength": 2000,
         "minLength": 1
       },
+      "council_level": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "enum": [
+          "광역",
+          "기초"
+        ]
+      },
       "homepage_url": {
         "type": [
           "string",
@@ -76,7 +107,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "homepage_source_url": {
         "type": [
@@ -85,7 +116,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "homepage_checked_at": {
         "type": [
@@ -126,7 +157,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "minutes_source_url": {
         "type": [
@@ -135,7 +166,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "minutes_checked_at": {
         "type": [
@@ -176,7 +207,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "bills_source_url": {
         "type": [
@@ -185,7 +216,7 @@
         ],
         "maxLength": 2000,
         "format": "uri",
-        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
       },
       "bills_checked_at": {
         "type": [
@@ -213,6 +244,56 @@
         ]
       },
       "bills_scope": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "members_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+      },
+      "members_source_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://(?:[a-zA-Z0-9.-]+\\.go\\.kr|council\\.gangwon\\.kr|www\\.smc\\.seoul\\.kr|ms\\.smc\\.seoul\\.kr|council\\.chungbuk\\.kr|www\\.council\\.ulsan\\.kr|www\\.council\\.jeju\\.kr|www\\.jbstatecouncil\\.jeonbuk\\.kr|r\\.jbstatecouncil\\.jeonbuk\\.kr)(?:/|$)"
+      },
+      "members_checked_at": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "date-time"
+      },
+      "members_method": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "members_status": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "enum": [
+          "navigation_observed",
+          "http_response_checked",
+          "unknown"
+        ]
+      },
+      "members_scope": {
         "type": [
           "string",
           "null"
