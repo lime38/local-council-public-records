@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "schema_version": "1.0.0",
+  "title": "5개 지역 지방의회 공식 기록 접근 안내",
+  "scope_as_of": "2026-10-04",
+  "council_count": 5,
+  "checked_entry_point_count": 15,
+  "canonical_url": "https://jalhana.com/resources/local-councils/",
+  "repository_url": "https://github.com/lime38/local-council-public-records",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_scope": "잘하나 자체 작성 메타데이터·설명 및 보유 권리 범위; 정부 원문·첨부·로고 제외",
+  "manifest": "manifest.sha256"
+}

@@ -1,0 +1,27 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright 2026 잘하나(JALHANA)
+
+이 라이선스는 이 공개 리소스에 포함된 잘하나의 자체 작성 메타데이터와
+설명 문서에 대하여, 잘하나가 보유하는 저작권 및 유사 권리의 범위에서만
+적용됩니다. 기관명·URL 등 사실 자체에 새로운 권리를 주장하지 않습니다.
+
+적용 대상: data/councils.json, data/councils.csv, schema/councils.schema.json,
+README.md, DATA_POLICY.md, CHANGELOG.md, CITATION.cff, docs/fields.md,
+docs/methodology.md, release.json 및 공개 리소스 페이지의 자체 작성 설명.
+
+제외 대상: 연결된 정부·의회의 원문 회의록, 의안 본문, 첨부 자료, 기관 로고,
+사진과 제3자 저작물. 해당 자료의 이용조건은 각 제공기관·권리자의 안내를
+따릅니다. 잘하나는 그러한 원자료에 CC BY 4.0을 부여하지 않습니다.
+
+라이선스 조건 요약: 적절한 출처 표시, 라이선스 링크 제공 및 변경 여부의
+표시를 조건으로 적용 대상의 공유·수정·상업적 이용이 허용됩니다. 특정
+검색용 링크 속성이나 앵커 문구를 요구하지 않습니다. 이 문서는 라이선스
+법률문을 대체하지 않으며, 적용 조건은 아래 CC BY 4.0 법률문을 따릅니다.
+
+라이선스: https://creativecommons.org/licenses/by/4.0/
+법률문: https://creativecommons.org/licenses/by/4.0/legalcode
+
+권장 출처:
+잘하나(JALHANA), 「5개 지역 지방의회 공식 기록 접근 안내」, v0.1.0,
+자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/

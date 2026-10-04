@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jalhana.com/resources/local-councils/schema/councils.schema.json",
+  "title": "5개 지역 지방의회 공식 기록 접근 안내 v0.1.0",
+  "type": "array",
+  "minItems": 5,
+  "maxItems": 5,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "release_version",
+      "scope_as_of",
+      "council_id",
+      "region",
+      "council_name",
+      "homepage_url",
+      "homepage_source_url",
+      "homepage_checked_at",
+      "homepage_method",
+      "homepage_status",
+      "homepage_scope",
+      "minutes_url",
+      "minutes_source_url",
+      "minutes_checked_at",
+      "minutes_method",
+      "minutes_status",
+      "minutes_scope",
+      "bills_url",
+      "bills_source_url",
+      "bills_checked_at",
+      "bills_method",
+      "bills_status",
+      "bills_scope",
+      "notes"
+    ],
+    "properties": {
+      "release_version": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "const": "0.1.0"
+      },
+      "scope_as_of": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "format": "date"
+      },
+      "council_id": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "enum": [
+          "geoje",
+          "seongnam",
+          "goyang",
+          "gangnam",
+          "songpa"
+        ]
+      },
+      "region": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1
+      },
+      "council_name": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1
+      },
+      "homepage_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+      },
+      "homepage_source_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+      },
+      "homepage_checked_at": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "date-time"
+      },
+      "homepage_method": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "homepage_status": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "enum": [
+          "navigation_observed",
+          "http_response_checked",
+          "unknown"
+        ]
+      },
+      "homepage_scope": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "minutes_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+      },
+      "minutes_source_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+      },
+      "minutes_checked_at": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "date-time"
+      },
+      "minutes_method": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "minutes_status": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "enum": [
+          "navigation_observed",
+          "http_response_checked",
+          "unknown"
+        ]
+      },
+      "minutes_scope": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "bills_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+      },
+      "bills_source_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "uri",
+        "pattern": "^https?://[^/]+\\.go\\.kr(?:/|$)"
+      },
+      "bills_checked_at": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000,
+        "format": "date-time"
+      },
+      "bills_method": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "bills_status": {
+        "type": "string",
+        "maxLength": 2000,
+        "minLength": 1,
+        "enum": [
+          "navigation_observed",
+          "http_response_checked",
+          "unknown"
+        ]
+      },
+      "bills_scope": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      },
+      "notes": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 2000
+      }
+    }
+  }
+}
