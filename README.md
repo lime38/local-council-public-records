@@ -2,7 +2,9 @@
 
 제작: [잘하나(JALHANA)](https://jalhana.com/) · **[대표 안내·웹 목록](https://jalhana.com/resources/local-councils/)**
 
-**v0.2.5 · 자료 기준일 2026-10-04 · 24개 지역 베타**
+**v0.2.6 · 자료 기준일 2026-10-04 · 24개 지역 베타**
+
+첫 공개일 2026-10-04 · 이번 버전 갱신일 2026-10-05. 링크별 확인일은 데이터의 `checked_at`에 따로 기록합니다.
 
 지방의회의 공식 홈페이지와 회의록·의안·의원 안내 진입 경로를 찾고 재사용할 수 있도록 정리한 자료입니다.
 24개 지역의 96개 링크와 URL별 출처·확인 기록을 제공합니다.
@@ -29,9 +31,9 @@ for council in councils:
 
 ## 권장 인용
 
-> 잘하나(JALHANA), 「24개 지역 지방의회 공식 기록·의원 안내」, v0.2.5, 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
+> 잘하나(JALHANA), 「24개 지역 지방의회 공식 기록·의원 안내」, v0.2.6 (2026-10-05), 자료 기준일 2026-10-04, https://jalhana.com/resources/local-councils/
 
-기계 판독용 인용 정보: [CITATION.cff](CITATION.cff).
+기계 판독용 인용 정보: [CITATION.cff](CITATION.cff). [이 버전의 고정 파일](https://github.com/lime38/local-council-public-records/tree/v0.2.6).
 개별 기관의 공식 기록을 이용한 글에는 해당 기록의 원출처도 함께 표시해 주세요.
 변경·재구성한 경우 변경 내용을 밝혀 주세요. 특정 링크 속성이나 앵커 문구를 요구하지 않습니다.
 
