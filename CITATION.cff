@@ -1,17 +1,17 @@
 cff-version: 1.2.0
 message: "이 자료를 사용한 경우 아래의 권장 인용 정보를 참고해 주세요."
 type: dataset
-title: "24개 지역 지방의회 공식 기록·의원 안내"
+title: "56개 지역 지방의회 공식 기록·의원 안내"
 authors:
   - name: "잘하나(JALHANA)"
     website: "https://jalhana.com/"
-version: "0.2.6"
+version: "0.3.0"
 date-released: "2026-10-05"
 url: "https://jalhana.com/resources/local-councils/"
 repository-code: "https://github.com/lime38/local-council-public-records"
 license: CC-BY-4.0
-abstract: "24개 지역의 기관 구분·홈페이지·회의록·의안·의원 안내 접근 메타데이터. 라이선스는 자체 작성 메타·설명 및 보유 권리 범위에 한하며 정부 원문·첨부·로고는 제외됩니다."
+abstract: "56개 지역의 기관 구분·홈페이지·회의록·의안·의원 안내 접근 메타데이터. 라이선스는 자체 작성 메타·설명 및 보유 권리 범위에 한하며 정부 원문·첨부·로고는 제외됩니다."
 keywords:
   - "지방의회"
   - "공식 기록 접근"
-  - "24개 지역 베타"
+  - "56개 지역 베타"
